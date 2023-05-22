@@ -21,7 +21,7 @@ def signup(request):
     if form.is_valid():
         form.save()
 
-        #Send Verification Email
+        #Work on Send Verification Email Later
     else:
         message = 'error'
 
